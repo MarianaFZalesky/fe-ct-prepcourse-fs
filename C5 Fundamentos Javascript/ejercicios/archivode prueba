@@ -1,0 +1,6 @@
+const esNuloOIndefinido = require('../esNuloOIndefinido'); // Asegúrate de que la ruta sea correcta
+
+console.log(esNuloOIndefinido(null)); // Debería imprimir true
+console.log(esNuloOIndefinido(undefined)); // Debería imprimir true
+console.log(esNuloOIndefinido(22)); // Debería imprimir false
+console.log(esNuloOIndefinido("texto")); // Debería imprimir false
