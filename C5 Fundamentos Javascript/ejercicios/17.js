@@ -14,5 +14,6 @@ function esPositivo(num) {
     return false;
   }
 }
+console.log(esPositivo(19));
 
 module.exports = esPositivo;

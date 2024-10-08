@@ -8,5 +8,7 @@ function tienenMismaLongitud(str1, str2) {
   // Tu código:
   return str1.length  === str2.length
 }
+console.log(tienenMismaLongitud("loco", "casa"));
+console.log(tienenMismaLongitud("amor", "cancion"));
 
 module.exports = tienenMismaLongitud;

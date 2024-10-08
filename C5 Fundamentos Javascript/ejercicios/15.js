@@ -8,5 +8,5 @@ function esPar(num) {
   // Tu código:
   return num % 2 === 0
 }
-
+console.log(esPar(50));
 module.exports = esPar;

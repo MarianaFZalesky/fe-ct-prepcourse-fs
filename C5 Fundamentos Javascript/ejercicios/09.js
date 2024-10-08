@@ -1,8 +1,8 @@
-const esNuloOIndefinido = module.exports('null')
+const esNuloOIndefinido = undefined;
 module.exports = esNuloOIndefinido
 
-function mariann('null') {
-  console.log(valor)
+function mariann(valor) {
+// console.log(valor);
  // Asegúrate de que la ruta sea correcta
  // Debería imprimir true
   // La función recibe un argumento llamado valor.
@@ -16,4 +16,4 @@ function mariann('null') {
   // Tu código:
   return valor === null || valor === undefined;
 };
-mariann(esNuloOIndefinido);
+console.log(mariann(esNuloOIndefinido));

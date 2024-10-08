@@ -8,5 +8,5 @@ function esImpar(num) {
   // Tu código:
   return num % 2 === 1;
 }
-
+console.log(esImpar(15));
 module.exports = esImpar;

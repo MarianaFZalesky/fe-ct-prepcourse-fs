@@ -8,5 +8,5 @@ function menosQueNoventa(num) {
   // Tu código:
   return num< 90;
 }
-
+console.log(menosQueNoventa(80));
 module.exports = menosQueNoventa;

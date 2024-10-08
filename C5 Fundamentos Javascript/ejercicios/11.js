@@ -8,5 +8,7 @@ function sonIguales(x, y) {
   // Tu código:
   return x === y
 }
+console.log(sonIguales(3,5));
+console.log(sonIguales(3,3));
 
 module.exports = sonIguales;

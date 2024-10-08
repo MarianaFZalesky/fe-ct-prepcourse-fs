@@ -9,5 +9,6 @@ function elevarAlCuadrado(num) {
   // Tu código:
   return Math.pow( num, 2);
 }
+console.log(elevarAlCuadrado(3,2));
 
 module.exports = elevarAlCuadrado;

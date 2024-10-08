@@ -11,8 +11,10 @@ function esVocal(letra) {
   if (letra.length === 1 && 'aeiou') {
     return "Es Vocal";
   } else { 
-    return "Dato incorrecto"
+    return "Dato incorrecto";
   }
-}
+};
+console.log(esVocal("e"));
+console.log(esVocal("cancion"));
 
 module.exports = esVocal;

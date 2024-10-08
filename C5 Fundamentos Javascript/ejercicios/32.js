@@ -9,5 +9,6 @@ function elevarAlCubo(num) {
   // Tu código:
   return Math.pow(num , 3)
 }
+console.log(elevarAlCubo(3, 3));
 
 module.exports = elevarAlCubo;

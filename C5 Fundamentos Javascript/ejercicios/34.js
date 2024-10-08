@@ -9,5 +9,5 @@ function redondearNumero(num) {
    // Tu código:
    return Math.round (num)
 }
-
+console.log(redondearNumero(23,4));
 module.exports = redondearNumero;

@@ -7,4 +7,5 @@ function resta(x, y) {
   // Tu código:
       return x - y;
 }
+console.log(resta(2,5));
 module.exports = resta;
